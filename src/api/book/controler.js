@@ -2,10 +2,11 @@ import { MongoClient, ObjectID } from 'mongodb'
 import Book from "./model"
 import mongoose from "mongoose"
 
+/*
 //параметри бази
 const url = 'mongodb://localhost:27017';
 const dbName = 'bookDB';
-mongoose.connect (url+'/'+dbName);
+mongoose.connect (url+'/'+dbName);*/
 
 const bookControler = {
     //отримати всі

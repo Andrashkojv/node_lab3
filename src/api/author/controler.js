@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 import Author from "./model"
-mongoose.connect("mongodb://localhost:27017/bookDB");
+//mongoose.connect("mongodb://localhost:27017/bookDB");
 
 const authorControler = {
     getAll: (req, res) => {
